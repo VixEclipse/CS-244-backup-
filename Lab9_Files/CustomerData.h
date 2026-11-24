@@ -1,5 +1,6 @@
 #ifndef CUSTOMERDATA_H
 #define CUSTOMERDATA_H
+#include "PersonData.h"
 
 using namespace std;
 
