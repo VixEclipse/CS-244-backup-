@@ -16,10 +16,18 @@ class CustomerData : public PersonData
             mailingList = false;
         }
 
-        CustomerData(int n, bool m)
+        CustomerData(int n, bool m, string l, string f, string a,
+             string c, string s, string z, string p)
         {
             customerNumber = n;
             mailingList = m;
+            lastName = l;
+            firstName = f;
+            address = a;
+            city = c;
+            state = s;
+            zip = z;
+            phone = p;
         }
 
         // Mutators

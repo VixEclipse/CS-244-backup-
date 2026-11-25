@@ -6,7 +6,7 @@ using namespace std;
 
 class PersonData
 {
-    private:
+    protected:
         string lastName;
         string firstName;
         string address;
